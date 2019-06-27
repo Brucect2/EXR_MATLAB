@@ -9,5 +9,5 @@ Run:
 ```
 [img, channels] = exrread('filename.exr')
 size(img)
-M x N x C
+M x N x C, C is the channel name.
 ```
