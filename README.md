@@ -4,9 +4,10 @@ Requirements: <br />
 - install pyexr
 - install scipy
 - install numpy
-After downloading the repo, just add it to matlab default path. 
+After downloading the repo, just add it to matlab default path. <br /> 
 Run:
 ```
 [img, channels] = exrread('filename.exr')
-
+size(img)
+M x N x C
 ```
